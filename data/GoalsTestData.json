@@ -1,0 +1,118 @@
+{
+  "data": [
+    {
+      "goalTypeId": "1",
+      "goalType": "Travel Goals",
+      "values": [
+        {
+          "goalId": "100",
+          "cardHeading": "Lakshadweep Island (India)",
+          "amount": 66000,
+          "totalAmount": 90000,
+          "daystoGo": 20,
+          "maturityDate": "Jan 30, 2024"
+        },
+        {
+          "goalId": "101",
+          "cardHeading": "New Zealand (Aukland)",
+          "amount": 690000,
+          "totalAmount": 760000,
+          "daystoGo": 10,
+          "maturityDate": "Feb 29, 2024"
+        },
+        {
+          "goalId": "102",
+          "cardHeading": "Amsterdam (Netherlands)",
+          "amount": 220000,
+          "totalAmount": 1000000,
+          "daystoGo": 40,
+          "maturityDate": "Jan 30, 2024"
+        },
+        {
+          "goalId": "103",
+          "cardHeading": "London (United Kingdom)",
+          "amount": 430000,
+          "totalAmount": 1000000,
+          "daystoGo": 40,
+          "maturityDate": "Jan 30, 2024"
+        }
+      ]
+    },
+    {
+      "goalTypeId": "2",
+      "goalType": "Gadget",
+      "values": [
+        {
+          "goalId": "200",
+          "cardHeading": "Macbook Pro M2",
+          "amount": 20000,
+          "totalAmount": 177000,
+          "daystoGo": 27,
+          "maturityDate": "Jan 30, 2024"
+        },
+        {
+          "goalId": "201",
+          "cardHeading": "Iphone 15 Pro Max",
+          "amount": 53000,
+          "totalAmount": 88000,
+          "daystoGo": 40,
+          "maturityDate": "May 5, 2025"
+        },
+        {
+          "goalId": "202",
+          "cardHeading": "Apple Watch Ultra 2",
+          "amount": 33000,
+          "totalAmount": 89900,
+          "daystoGo": 40,
+          "maturityDate": "Jan 30, 2024"
+        },
+        {
+          "goalId": "203",
+          "cardHeading": "PlayStation 5 with remote",
+          "amount": 55000,
+          "totalAmount": 78000,
+          "daystoGo": 40,
+          "maturityDate": "Jan 30, 2024"
+        }
+      ]
+    },
+    {
+      "goalTypeId": "3",
+      "goalType": "LifeStyle",
+      "values": [
+        {
+          "goalId": "301",
+          "cardHeading": "Louis Vuitton Jacket",
+          "amount": 10000,
+          "totalAmount": 98000,
+          "daystoGo": 90,
+          "maturityDate": "Jan 30, 2026"
+        },
+        {
+          "goalId": "302",
+          "cardHeading": "Patek Philippe Watch",
+          "amount": 50000,
+          "totalAmount": 90000,
+          "daystoGo": 98,
+          "maturityDate": "May 30, 2026"
+        },
+        {
+          "goalId": "303",
+          "cardHeading": "Mercedes GLS 600",
+          "amount": 11000000,
+          "totalAmount": 40000000,
+          "daystoGo": 98,
+          "maturityDate": "Nov 30, 2026"
+        },
+        {
+          "goalId": "304",
+          "cardHeading": "Mercedes G Wagon",
+          "amount": 0,
+          "totalAmount": 70000,
+          "daystoGo": 38,
+          "maturityDate": "May 03, 2026"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,522 @@
+{
+  "data": [
+    {
+      "goalId": "100",
+      "cardHeading": "Lakshadweep Island (India)",
+      "amount": 66000,
+      "totalAmount": 90000,
+      "daystoGo": 20,
+      "maturityDate": "Jan 30, 2024",
+      "goalType": "Travel Goals",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundName": "Axis Bluechip Fund",
+          "fundId": "1",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "2",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "stockId": "1",
+          "type": "Equity",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "stockId": "2",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        },
+        {
+          "stockName": "HDFC Small Cap Fund",
+          "stockId": "3",
+          "type": "Equity",
+          "price": "1,510",
+          "quantity": "100"
+        },
+        {
+          "stockName": "Canara Midcap Fund",
+          "stockId": "4",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "101",
+      "cardHeading": "New Zealand (Aukland)",
+      "amount": 690000,
+      "totalAmount": 760000,
+      "daystoGo": 10,
+      "maturityDate": "Feb 29, 2024",
+      "goalType": "Travel Goals",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundName": "Axis Bluechip Fund",
+          "fundId": "1",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "2",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "stockId": "1",
+          "type": "Equity",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "stockId": "2",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        },
+        {
+          "stockName": "HDFC Small Cap Fund",
+          "stockId": "3",
+          "type": "Equity",
+          "price": "1,510",
+          "quantity": "100"
+        },
+        {
+          "stockName": "Canara Midcap Fund",
+          "stockId": "4",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "102",
+      "cardHeading": "Amsterdam (Netherlands)",
+      "amount": 690000,
+      "totalAmount": 760000,
+      "daystoGo": 10,
+      "maturityDate": "Feb 29, 2024",
+      "goalType": "Travel Goals",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundName": "Axis Bluechip Fund",
+          "fundId": "1",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "2",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "stockId": "1",
+          "type": "Equity",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "stockId": "2",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        },
+        {
+          "stockName": "HDFC Small Cap Fund",
+          "stockId": "3",
+          "type": "Equity",
+          "price": "1,510",
+          "quantity": "100"
+        },
+        {
+          "stockName": "Canara Midcap Fund",
+          "stockId": "4",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "103",
+      "cardHeading": "London (United Kingdom)",
+      "amount": 690000,
+      "totalAmount": 760000,
+      "daystoGo": 10,
+      "maturityDate": "Feb 29, 2024",
+      "goalType": "Travel Goals",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundName": "Axis Bluechip Fund",
+          "fundId": "1",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "2",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "stockId": "1",
+          "type": "Equity",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "stockId": "2",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        },
+        {
+          "stockName": "HDFC Small Cap Fund",
+          "stockId": "3",
+          "type": "Equity",
+          "price": "1,510",
+          "quantity": "100"
+        },
+        {
+          "stockName": "Canara Midcap Fund",
+          "stockId": "4",
+          "type": "Equity",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "200",
+      "cardHeading": "Macbook Pro M2",
+      "amount": 20000,
+      "totalAmount": 177000,
+      "daystoGo": 27,
+      "maturityDate": "Jan 30, 2024",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "201",
+      "cardHeading": "Iphone 15 Pro Max",
+      "amount": 53000,
+      "totalAmount": 88000,
+      "daystoGo": 40,
+      "maturityDate": "May 5, 2025",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "202",
+      "cardHeading": "Apple Watch Ultra 2",
+      "amount": 33000,
+      "totalAmount": 89900,
+      "daystoGo": 40,
+      "maturityDate": "May 5, 2025",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "203",
+      "cardHeading": "PlayStation 5 with remote",
+      "amount": 55000,
+      "totalAmount": 78000,
+      "daystoGo": 40,
+      "maturityDate": "Jan 30, 2024",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "301",
+      "cardHeading": "Louis Vuitton Jacket",
+      "amount": 10000,
+      "totalAmount": 98000,
+      "daystoGo": 90,
+      "maturityDate": "Jan 30, 2026",
+      "goalType": "LifeStyle",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "302",
+      "cardHeading": "PATEK PHILIPPE Watch",
+      "amount": 50000,
+      "totalAmount": 90000,
+      "daystoGo": 98,
+      "maturityDate": "May 30, 2026",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "303",
+      "cardHeading": "Mercedes GLS 600",
+      "amount": 11000000,
+      "totalAmount": 40000000,
+      "daystoGo": 98,
+      "maturityDate": "Nov 30, 2026",
+      "goalType": "Gadgets",
+      "Mutualfunds": [
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "7",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        },
+        {
+          "unitPrice": "53.3",
+          "quantity": "3,830",
+          "fundId": "8",
+          "fundName": "Axis Bluechip Fund",
+          "fundType": "Equity"
+        }
+      ],
+      "Stocks": [
+        {
+          "stockName": "PVRINOX",
+          "type": "Equity",
+          "stockId": "10",
+          "price": "1,710",
+          "quantity": "1,000"
+        },
+        {
+          "stockName": "Axis Bluechip Fund",
+          "type": "Equity",
+          "stockId": "11",
+          "price": "53.3",
+          "quantity": "3,830"
+        }
+      ]
+    },
+    {
+      "goalId": "304",
+      "cardHeading": "Mercedes G Wagon",
+      "amount": 0,
+      "totalAmount": 70000,
+      "daystoGo": 38,
+      "maturityDate": "May 03, 2026",
+      "goalType": "Gadgets",
+      "Mutualfunds": [],
+      "Stocks": []
+    }
+  ]
+}
