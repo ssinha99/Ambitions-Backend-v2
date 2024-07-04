@@ -110,7 +110,6 @@ app.post("/signup", jsonParser, async (req, res) => {
     password: hashedpass,
   };
   const credData = await credentials.find();
-  console.log(credData);
 
   let flag = false;
   credData.forEach((element) => {
