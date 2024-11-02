@@ -145,6 +145,7 @@ app.post("/signup", jsonParser, async (req, res) => {
 
 app.post(
   "/uploadProfilePic",
+  jsonParser,
   checkAuth,
   upload.single("image"),
   async (req, res) => {
