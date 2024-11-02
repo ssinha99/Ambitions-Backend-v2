@@ -5,8 +5,9 @@ const router = express.Router();
 const { connect, model } = require("mongoose");
 const bodyparser = require("body-parser");
 const bcrypt = require("bcryptjs");
-const jwt = require('jsonwebtoken');
+const jwt = require("jsonwebtoken");
 const checkAuth = require("./middleware/check-auth");
+const multer = require("multer");
 
 const jsonParser = bodyparser.json(); //used for accessing body of the req in post request.
 const uri =
@@ -59,6 +60,18 @@ const credentials = model("credentials", {
   password: String,
 });
 
+const storage = multer.diskStorage({
+  destination: function (req, file, cb) {
+    cb(null, "./uploads");
+  },
+  filename: function (req, file, cb) {
+    const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
+    cb(null, file.fieldname + "-" + uniqueSuffix);
+  },
+});
+
+const upload = multer({ storage: storage });
+
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader("Access-Control-Allow-Headers", "*, authorization");
@@ -80,20 +93,24 @@ app.post("/login", jsonParser, async (req, res) => {
         req.body.password,
         existingUser[0]?.password
       );
-      if (isValidPassword){
+      if (isValidPassword) {
         let token;
-        try{
-          token = await jwt.sign({email: req.body.phoneOrMail, password: req.body.password}, 'secretKey', {expiresIn: '800s'})
-          res.status(200).send({email: req.body.phoneOrMail, password: req.body.password, token});
-        }
-        catch(error){
+        try {
+          token = await jwt.sign(
+            { email: req.body.phoneOrMail, password: req.body.password },
+            "secretKey",
+            { expiresIn: "800s" }
+          );
+          res.status(200).send({
+            email: req.body.phoneOrMail,
+            password: req.body.password,
+            token,
+          });
+        } catch (error) {
           console.log(error);
         }
-      }
-      else 
-        res.status(200).send({ message: "Incorrect password !" });
-    } 
-    catch (error) {
+      } else res.status(200).send({ message: "Incorrect password !" });
+    } catch (error) {
       console.log(error);
     }
   }
@@ -126,10 +143,13 @@ app.post("/signup", jsonParser, async (req, res) => {
   }
 });
 
+app.post("/uploadProfilePic", upload.single("profilePic"), async (req, res) => {
+  console.log(req.files[0]);
+});
+
 app.get("/", (req, res) => {
   res.status(200).send("Server working!");
 });
-
 
 // app.use(checkAuth)        // middleware
 
@@ -145,12 +165,12 @@ app.get("/ambitionsData", checkAuth, async (req, res) => {
 app.get("/getprofile/:id", checkAuth, async (req, res) => {
   const id = req.params.id;
   try {
-    const userProfile = await credentials.find({email: id})
-    res.status(200).send(userProfile)
+    const userProfile = await credentials.find({ email: id });
+    res.status(200).send(userProfile);
   } catch (error) {
-    res.status(500).send({message: error})
+    res.status(500).send({ message: error });
   }
-})
+});
 
 app.post("/addAmbition", jsonParser, checkAuth, async (req, res) => {
   let data = await User.find({ goalType: req.body.goalType });
@@ -271,8 +291,7 @@ app.get("/insert", async (req, res) => {
   res.status(200).send({ message: "Inserted Succesfully!" });
 });
 
-
-const port = process.env.PORT || 3000
+const port = process.env.PORT || 3000;
 
 app.listen(port, () => {
   console.log("Running on port ", port);
