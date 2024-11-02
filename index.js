@@ -143,15 +143,19 @@ app.post("/signup", jsonParser, async (req, res) => {
   }
 });
 
-app.post("/uploadProfilePic", checkAuth, upload.single("image"), async (req, res) => {
-  try {
-    console.log(req.files[0]);
-    res.status(200).send("File uploaded");
-  } catch (err) {
-    console.log(err);
-    res.status(400).send(err)
+app.post(
+  "/uploadProfilePic",
+  checkAuth,
+  upload.single("image"),
+  async (req, res) => {
+    try {
+      res.status(200).send("File uploaded");
+    } catch (err) {
+      console.log(err);
+      res.status(400).send(err);
+    }
   }
-});
+);
 
 app.get("/", (req, res) => {
   res.status(200).send("Server working!");
