@@ -62,7 +62,7 @@ const credentials = model("credentials", {
 
 const storage = multer.diskStorage({
   destination: function (req, file, cb) {
-    cb(null, "./uploads");
+    cb(null, "uploads/");
   },
   filename: function (req, file, cb) {
     const uniqueSuffix = Date.now() + "-" + Math.round(Math.random() * 1e9);
@@ -143,8 +143,14 @@ app.post("/signup", jsonParser, async (req, res) => {
   }
 });
 
-app.post("/uploadProfilePic", upload.single("profilePic"), async (req, res) => {
-  console.log(req.files[0]);
+app.post("/uploadProfilePic", checkAuth, upload.single("image"), async (req, res) => {
+  try {
+    console.log(req.files[0]);
+    res.status(200).send("File uploaded");
+  } catch (err) {
+    console.log(err);
+    res.status(400).send(err)
+  }
 });
 
 app.get("/", (req, res) => {
